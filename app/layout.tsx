@@ -32,8 +32,8 @@ export default function RootLayout({
       >
         <Page>
           <HeaderMenu
-            href="https://arbetsmarknad.github.io"
-            text="arbetsmarknad.github.io"
+            canonicalUrl="https://arbetsmarknad.github.io"
+            deploymentUrl="https://arbetsmarknad.github.io"
           />
           {children}
           <Footer
