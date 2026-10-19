@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Footer } from "@arbetsmarknad/components/Footer";
-import { HeaderMenu } from "@arbetsmarknad/components/HeaderMenu";
-import { Page } from "@arbetsmarknad/components/Page";
+import { Footer } from "@svenskamodellen/components/Footer";
+import { HeaderMenu } from "@svenskamodellen/components/HeaderMenu";
+import { Page } from "@svenskamodellen/components/Page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,12 +32,12 @@ export default function RootLayout({
       >
         <Page>
           <HeaderMenu
-            canonicalUrl="https://arbetsmarknad.github.io"
-            deploymentUrl="https://arbetsmarknad.github.io"
+            canonicalUrl="https://svenskamodellen.github.io"
+            deploymentUrl="https://svenskamodellen.github.io"
           />
           {children}
           <Footer
-            sourceCode={["arbetsmarknad/next", "arbetsmarknad/components"]}
+            sourceCode={["svenskamodellen/next", "svenskamodellen/components"]}
           />
         </Page>
       </body>
